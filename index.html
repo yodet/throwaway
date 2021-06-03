@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!--Yodet W-->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Yodet W. Shigute Portal</title>
+	<style>
+		body {
+			font-family: serif;
+			background-color: rgb(223, 235, 211);
+			font-size: 20px;
+			text-align: center;
+		}
+
+		h1 {
+			background-color: lightblue;
+			text-align: center;
+			font-size: 50px;
+			font-family: serif;
+		}
+
+		#yoyo {
+			width: 320px;
+			float: left;
+			margin-right: 1em;
+		}
+
+		#sidebar {
+			background: rgb(255, 255, 219);
+			float: right;
+			width: 20%;
+			margin: 10px;
+			font-weight: bold;
+			font-size: 16px;
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+			background-color: lightblue;
+			font-family: serif;
+		}
+
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.column {
+			width: 25%;
+			padding: 10px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.row::after {
+			content: "first photo of me and colleagues at a cultural-religious event/second photo of me handing completion award to student who has been cropped for privacy reasons";
+			clear: both;
+			text-align: center;
+			font-size: 14px;
+			font-style: italic;
+
+		}
+
+		h6 {
+			text-align: center;
+			font-style: italic;
+			font-family: curisve;
+		}
+
+		.topnav {
+			margin: auto;
+			overflow: auto;
+			text-align: center;
+		}
+
+		.topnav {
+			margin: auto;
+			background-color: lavender;
+			overflow: auto;
+		}
+
+		.topnav a {
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 12px 12px;
+			text-decoration: none;
+			text-transform: capitalize;
+			font-size: 16px;
+		}
+
+		.topnav a.hover,
+		.active {
+			background-color: lavender;
+      color:black
+		}
+
+		.topnav .icon {
+			display: none;
+		}
+
+		/* Responsive rules - apply when screen width is less than 1200px */
+
+		@media screen and (max-width: 1199px) {
+			.topnav a:not(:first-child) {
+				display: none;
+			}
+
+			.topnav a.icon {
+				float: right;
+				display: block;
+			}
+
+			.topnav.responsive {
+				position: relative;
+			}
+
+			.topnav.responsive a {
+				float: none;
+				display: block;
+				text-align: left;
+			}
+
+			.topnav.responsive a.icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+		}
+
+
+		/* DESKTOP */
+		@media all and (min-width:1200px) {
+			.topnav {
+				width: 81%;
+			}
+		}
+
+		/* TABLET */
+		@media all and (min-width:501px) and (max-width:1199px) {
+			.topnav {
+				width: 91%;
+			}
+		}
+
+		/* PHONE */
+		@media all and (max-width:500px) {
+			.topnav {
+				width: 100%;
+      }
+      html {
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+::selection {
+    color: #000; 
+    background: #ff0;
+}
+
+h1 {
+    font-weight: normal;
+    margin: auto;
+    background: #fff;
+    line-height: 2.5em;
+}
+
+main.wrapper {
+    background-color: white;
+    overflow: auto;
+}
+
+p {
+    margin: 1em; /* Top Right Bottom Left (TRBL) */
+}
+
+h2,h3 {
+    font-weight: normal;
+    margin-left: 1em;
+    line-height: 1em;
+}
+
+a {
+    color:darkcyan;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: darkcyan;
+    text-decoration: none;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Responsive rules */
+
+/* DESKTOP */
+@media all and (min-width:1200px) {
+    main.wrapper {
+        width: 80%;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 79%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 50%;
+        float: left;
+        margin-right: 2em;
+    }
+    
+}
+
+/* TABLET */
+@media all and (min-width:501px) and (max-width:1199px) {
+    main.wrapper {
+        width: 90%;
+        margin: auto;
+    }
+    
+    h1 {
+        width: 89%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 50%;
+        float: right;
+        margin-left: 1em;
+    }
+
+}
+
+/* PHONE */
+@media all and (max-width:500px) {
+    main.wrapper {
+        width: 100%;
+    }
+    
+    h1 {
+        width: 99%;
+        padding-left: 1%;
+    }
+    
+    picture.profile img {
+        width: 100%;
+    }
+    
+}
+	</style>
+</head>
+
+<body>
+	<a href="index.html" class="active">Home</a>
+	<h1>Yodet Wassie Shigute</h1>
+	<h6>Thinker, developer, educator</h6>
+
+	<img class="center" alt="smiling african american women with black hair"id="yoyo" src="https://media-exp1.licdn.com/dms/image/C5603AQEaNVoxpMveiA/profile-displayphoto-shrink_200_200/0/1622065987174?e=1627516800&v=beta&t=a__BEYQtQ154NAEWrAzxOtRaKb6p3esAtTs2cQyWhfs">
+        
+        
+        <div id="sidebar">
+            <p>Intermediate in HTML/CSS</p>
+            <p>In progress JavaScript</p>
+            <p>In progress C++</p>
+            <p>Beginner in Java</p>
+        </div>
+        
+        <p>Hi, my name is Yodet (yo-deet)!</p>
+        <p>Located in the Greater Seattle area, I am an aspiring software engineer and my goal is to become a backend developer. I am an educator with 2 years of experience teaching beginner level coding, and was the youngest employee to be promoted from assistant to lead teacher. I taught elementary students how to code using kid-friendly software, while also getting advanced students acclimated with video game design.</p>
+
+        <p>Apart from developing, I love to work in my Ethiopian community. I served for four years as my church's youth choir teacher, and founded the first ever Ethiopian Orthodox college age fellowship in our state. <a target="_blank" href="https://www.instagram.com/otyg_seattle/?hl=en">Check out our instagram!</a>
+        <p>In my free time, I love to spend time with friends and travel to different coffee shops around the Seattle area. If you’d like some suggestions of coffee or to just talk tech, feel free to shoot me an email!</p>
+
+        <h1>Yodet in Action</h1>
+        <div class="row">
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/4NgGBT488rkjq7ateNX69gFgmMsve9Xsf4xZOSHcHDOi0N0AAb_ZiR5Oa8tQGXiwxwGaV3fRRbYQbpdX5c4MTI2trfbtp16c5Or65hDhZjnDQ2dv2FGKuAz40m79fB0uy1fQ-4vSfOYVHNhoaTI21h1y9Li5L4v5PmPSJNwi8uUHsStO7y2JdwLW_8iqzEFZzBvCbkqKa-ZQilEVUZ6NaHN5INI97OYvXo4yu8nsAS0bddJY0UQ-orhRc2synarC5l1cSXY8v-Sl5rfMmcWSHe17OtD--7Fdhj-Kp5jRWfEUMyDQaI8pY3FfQ-x2e8cUn8UDLOSnwiutzQ0zFq7tfBN8gF3KhQu_RJfVH8G5VTLtmPJkP_CmRs-5oh5xcMOSQEv1r4Z8_cio8efQKjMvOC3Ogshra68s3zJML9UERIxANBbGPXwr9vtwUKSsyzXz2n3EyMXL-53Bz-vlJiUDTUJtF5N7_iCGOdc_DYX8snyWtDSymCWt5Te8THvPQL4L92GUsNynLA_ZNy6AtKzvK_wvK2Nawbew-5IWw0SGEeN1LKCEVA0bHOrSXhRvA3nFFhlfGgo_AZX-eJU66rjTizYk59cOUZNdm0fAUcckbTteUAZdtjDhMc7wtX0Srj61nymM7qIZbUGI-5iqBYlbAQ2JPpsi1yhFR9Bf6aNn70jVRo2m3BOJQXvPBtdbsMyEb6LhgfTm1RAtGS871fDRo1F_PA=w1242-h925-no?authuser=0" alt="group of african american women and men" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://lh3.googleusercontent.com/V_QY52GAatd_7xjemuXuSrQC3dmqFWIYh7lkHkVsssfFtRV38EKWvE2wM5JiOzYo9fl0AQ6g6itz_y-zH5aX1-B478L-3sV5310hweP7ccbI3BvlyCHixkWMhvTdVxpDsqf2acw3sVFg9zgMdgjECFZFLmek6_0X_VXncQxC0ryhVnYNjOO190kAKZptEcBxYnGsjZ_pAx1wPYbsgm22RA_aoX-Qus4c_bxyK_sCmcRcaDw7EgVx_oZ9mxE2s4l9wJhbC-LtIYgKjmkto7Q7-wvl99aWsBHKoBwMhVm1jT1oeGKAOu_R-0NgAz3gkOyfp0EQTKs0u1jgURG35eQBDW-fagPe4GQOHWq8WW1kIoBNf6q4ZXySCDp9h5HStWJJORvW8l8d6NGfUcHwTWZernVU3sUmthsczn4nqn-iscvV9N5rS6L-5PdSPw17H3jDxUGTan0e-LWVJvSa5sOPtE5nNH6Old33r4e-ECBq04iXVDXFbrFkKF_7Knrp0o4fzI8QlpAgPzRpM6mNFOG7NQzrJPSxiyOM9CddH9AuW-mHB6mtT4qsQLXPamffc7j65FUiV44kwOZsQM84OvQFjah-rnsITWatNbMrbJbDQ-tVKea1tOBRV910MdanXh4ShxELiWfm-98M615aRJ_Zbhgl05J8OJ956aYS8ENX2TflTGdEfZPE6S3EBb9NsUKETKTXpcb7M9h6saKGn2odiK5TrQ=w1420-h1580-no?authuser=0" alt="african american woman standing wearing black" style="width:90%">
+  </div>
+</div>
+<h1>Notable Work</h1><nav class="topnav" id="myTopnav">
+            <a href="https://blog-post-it116.jordanradar.repl.co" target="_blank">Coffee Blog</a>
+            <a href="https://jordanradar.github.io/music-page-it115/" target="_blank">Benefits of Music While Studying</a>
+            <a href="https://docs.google.com/document/d/1DIbApL5isPxZICjEFjmth3KIcMZdCVBMwlp2ndpeC8o/edit?usp=sharing" target="_blank">Office Diversity White Paper</a>
+        </nav>
+
+<h1>Let's Connect!</h1>
+<a target="_blank" href="https://github.com/yodet">GitHub</a>
+<a target="_blank" href="https://www.linkedin.com/in/yodet-wassie-466893190/">LinkedIn</a>
+   <p>Copyright [2021] [<a href="https://www.linkedin.com/in/yodet-wassie-466893190/">Yodet W. Shigute</a>]. Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License, Version 2.0</a>
+        </p>
+     <footer>
+      <p><small>&copy; 2021 by <a href="https://www.linkedin.com/in/yodet-wassie-466893190/">Contact Yodet W. Shigute </a>, All Rights Reserved </small></p>
+    </footer>
+  </main>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+  </script>
+    </body>
+</html>
